@@ -28,7 +28,8 @@ Connectivity (TDBC) służący do dostępu do baz danych SQLite 3.
 %setup -q -n tdbcsqlite3-%{version}
 
 %build
-%configure
+%configure \
+	--libdir=%{_prefix}/lib
 %{__make}
 
 %install
