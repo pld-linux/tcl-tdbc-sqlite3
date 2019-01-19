@@ -1,12 +1,12 @@
 Summary:	TDBC driver to access SQLite 3 databases
 Summary(pl.UTF-8):	Sterownik TDBC służący do dostępu do baz danych SQLite 3
 Name:		tcl-tdbc-sqlite3
-Version:	1.0.4
+Version:	1.1.0
 Release:	1
 License:	Tcl (BSD-like)
 Group:		Libraries
 Source0:	http://downloads.sourceforge.net/tcl/tdbcsqlite3-%{version}.tar.gz
-# Source0-md5:	324d3a7f4124998b27d92f516e902bd1
+# Source0-md5:	a5469cba079949c77b7ca004f8c68d56
 URL:		http://tdbc.tcl.tk/
 BuildRequires:	tcl-devel >= 8.6
 BuildRequires:	tcl-tdbc-devel >= %{version}
